@@ -5,7 +5,6 @@ import styles from "./themeToggle.module.css";
 import Image from "next/image";
 import { ThemeContext } from '@/app/context/ThemeContext';
 
-
 const ThemeToggle = () => {
   const { theme, toggle } = useContext(ThemeContext);
   console.log("🚀 ~ file: ThemeToggle.jsx:9 ~ ThemeToggle ~ theme:", theme);
